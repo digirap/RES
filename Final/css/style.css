@@ -88,7 +88,7 @@ img {
     }
 
     figure {
-        background-color: #222; /* Dark background for figures */
+        /*background-color: #222; /* Dark background for figures */
         color: #ffc107; /* Yellow-ish font color for figures */
         border-color: #000; /* Black border color for figures */
     }
