@@ -50,7 +50,7 @@ img {
     }
 
      img {
-        border-radius: 10%; /* Remove border radius */
+        border-radius: 50%; /* Circular Shape */
     }
 
     .grid figure:last-child {
