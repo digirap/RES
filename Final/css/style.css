@@ -49,6 +49,10 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 
+     img {
+        border-radius: 10%; /* Remove border radius */
+    }
+
     .grid figure:last-child {
         grid-column: span 2; /* Take up both columns */
     }
