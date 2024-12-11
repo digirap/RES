@@ -67,6 +67,8 @@ img {
     img {
         border-radius: 0; /* Remove border radius */
         width: auto;      /*Make not to use max-width */
+        height: 300px; /* for better display of images*/
+        object-fit: cover; 
     }
 
     .grid figure:nth-child(3n) {
