@@ -82,10 +82,19 @@ img {
 
 /* Media query for dark color scheme */
 @media (prefers-color-scheme: dark) {
-    background-color: #333; /* Dark background */
+    body {
+        background-color: #121212; /* Dark background for the body */
+        color: #f5f5f5; /* Light font color for the body */
+    }
+
     figure {
-        /*background-color: #333; /* Dark background */
-        color: #ffc107; /* Yellow-ish font color */
-        border-color: #000; /* Black border color */
+        background-color: #333; /* Dark background for figures */
+        color: #ffc107; /* Yellow-ish font color for figures */
+        border-color: #000; /* Black border color for figures */
+    }
+
+    .grid {
+        background-color: #222; /* Dark background for the grid */
     }
 }
+
