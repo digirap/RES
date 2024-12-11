@@ -49,10 +49,6 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    figure {
-        border-radius: 50%; /* Circular shape */
-    }
-
     .grid figure:last-child {
         grid-column: span 2; /* Take up both columns */
     }
@@ -64,7 +60,7 @@ img {
         grid-template-columns: repeat(2, 1fr); /* Two columns default */
     }
 
-    figure {
+    img {
         border-radius: 0; /* Remove border radius */
     }
 
@@ -88,13 +84,10 @@ img {
     }
 
     figure {
-        /*background-color: #222; /* Dark background for figures */
-        color: #ffc107; /* Yellow-ish font color for figures */
-        border-color: #000; /* Black border color for figures */
+        color: #ffc107; /* Yellow-ish font color  */
     }
 
-    .grid {
-        background-color: #222; /* Dark background for the grid */
+    img {
+        border-color: #000; /* Black border color  */
     }
 }
-
