@@ -62,7 +62,7 @@ img {
 
     img {
         border-radius: 0; /* Remove border radius */
-        width: auto; /*Make not to use max-width */
+        width: auto;      /*Make not to use max-width */
     }
 
     .grid figure:nth-child(3n) {
@@ -90,7 +90,6 @@ img {
     
     figure {
         color: #ffc107; /* Yellow-ish font color  */
-        /* border-color: #000; /* Black border color  */
     }
  
 }
